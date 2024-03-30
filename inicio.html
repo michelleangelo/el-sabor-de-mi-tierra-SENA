@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>El sabor de mi tierra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" /> <!-- libreria -->
+
+    <link rel="stylesheet" href="style.css"> <!-- vinculacion de archivo css -->
+</head>
+
+<body>
+    <header>
+        <!-- Menu prncipal -->
+        <div class="menu container">  
+            <img class="logo-1" src="imagenes/logo-restaurante.jpeg">
+            <input type="checkbox" id="menu">
+
+            <!-- Enlaces de naveegacion -->
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicio">Sobre nosotros</a></li>
+                        <li><a href="#producto">Productos</a></li>
+                        <li><a href="registro.html">Registro</a></li>
+                        
+                    </ul>
+                </div>
+                <img class="logo-2" src="imagenes/logo-restaurante.jpeg" alt="">
+
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#horario">Horario</a></li>
+                    </ul>
+                    <!-- Imagenes de las redes sociales  -->
+                    <div class="socials">
+                        <a href="https://www.facebook.com/">
+                            <div class="social">
+                                <img src="s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/">
+                            <div class="social">
+                                <img src="s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <div class="social">
+                                <img src="s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        
+        <!-- Informacion sobre las regiones -->
+        <div class="header-content container" id="inicio">
+            <div class="slider-txt"><h1 > Sobre las regiones </h1></div>
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <!-- informacion region andina -->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Region Andina</h1>
+                                <p>
+                                    -Famosa por: Su variedad de platos con influencia indígena, española y africana.
+                                    <br>-Ingredientes principales: Papa, maíz, trigo, carne de res, cerdo, pollo, legumbres y lácteos.
+                                    <br>-Platos típicos: Ajiaco santafereño, bandeja paisa, lechona tolimense, tamal, arepas, empanadas, morcilla, chorizo, chicharrón, mute santandereano, picada.
+                                    <br>-Bebidas típicas: Aguardiente, chicha, masato, chocolate caliente, tinto.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1"> Comprar</a>
+                                    <a href="menu.html" class="btn-1"> menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/region-andina.avif" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- informacion region caribe -->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Region caribe</h1>
+                                <p>
+                                    -Famosa por: Sus platos con influencia afrocolombiana e indígena, con sabores fuertes y especiados.
+                                    <br>-Ingredientes principales: Pescados y mariscos, coco, yuca, plátano, ñame, arroz, leche de coco.
+                                    <br>-Platos típicos: Arroz de lisa, mojarra frita, sancocho de pescado, carimañolas, bollo limpio, butifarra, sancocho de guandú, arroz con pollo, ensalada de aguacate.
+                                    <br>-Bebidas típicas: Ron, cerveza, jugo de corozo, jugo de tamarindo, agua de panela.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1"> Comprar</a>
+                                    <a href="menu.html" class="btn-1"> menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/region-caribe.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- informacion region pacifica -->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>region pacifica</h1>
+                                <p>
+                                    Famosa por: Sus platos con influencia africana e indígena, con sabores exóticos y picantes.
+                                    <br>-Ingredientes principales: Pescados y mariscos, chontaduro, borojó, coco, plátano, yuca, caña de azúcar.
+                                    <br>-Platos típicos: Cuy asado, empanadas de jaiba, sopa de cangrejo, encocado de pescado, arroz atollado, tapao de pescado, viche de pescado.
+                                    <br>-Bebidas típicas: Viche de biche, arrechón, jugo de borojó, agua de panela con limón.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1"> Comprar</a>
+                                    <a href="menu.html" class="btn-1"> menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/region-pacifica.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        
+
+    </header>
+
+
+    <!-- Productos -->
+    <main class="products" id="producto">
+
+        <div class="tabs container">
+
+            <!-- Productos region andina -->
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Region Andina</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+                        <!-- primer producto regiona andina-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region andina ajiaco.webp" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Ajiaco santafereño</h4>
+                                    <p>Sopa de pollo con tres tipos de papa, mazorca, alcaparras y aguacate.</p>
+                                    <span class="price"> $15.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Segundo producto region andina-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region andina bandeja paisa.gif" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Bandeja paisa</h4>
+                                    <p> Plato fuerte con carne molida, chicharrón, chorizo, morcilla, arepa, huevo frito, aguacate y frijoles.</p>
+                                    <span class="price"> $15.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tercer producto region andina-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region andina tamal.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Tamal</h4>
+                                    <p>Masa de maíz rellena de carne, pollo o cerdo, envuelta en hoja de plátano y cocida al vapor.</p>
+                                    <span class="price"> $7.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- cuarto producto regiona andina-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region andina, lechona tolimense.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Lechona tolimense</h4>
+                                    <p>Plato de cerdo relleno de arroz, arveja, garbanzo, carne de cerdo y especias.</p>
+                                    <span class="price"> $20.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+
+            <!-- Productos region caribe -->
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Region Caribe</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+
+                        <!-- primer producto region caribe -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region caribe arroz de lisa.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Arroz de lisa </h4>
+                                    <p>Arroz cocinado con leche de coco, lisa y especias, acompañada con patacon</p>
+                                    <span class="price"> $15.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- segundo producto region caribe  -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region caribe mojarra frita.jpg" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Mojarra frita</h4>
+                                    <p>Pescado frito entero, acompañado de yuca frita y ensalada.</p>
+                                    <span class="price"> $17.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tercer producto region caribe  -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region caribe sancocho de pescado.webp" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Sancocho de pescado</h4>
+                                    <p>Sopa de pescado con yuca, plátano, ñame y maíz.</p>
+                                    <span class="price"> $13.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- cuarto producto region caribe  -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region caribe carimañola.jpg" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Carimañola</h4>
+                                    <p>Bollitos de yuca rellenos de queso, carne u otros ingredientes, fritos.</p>
+                                    <span class="price"> $3.500 c/u </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            
+
+            <!-- Productos region pacifica -->
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Region Pacifica</label>
+
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+
+                        <!-- primer producto region pacifica -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region pacifica cuy asado.webp" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Cuy asado</h4>
+                                    <p>Roedor pequeño asado a la brasa</p>
+                                    <span class="price"> $25.000</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- segundo producto region pacifica -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region pacifica empanadas de jaiba.jpg" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Empanadas de jaiba</h4>
+                                    <p>Unas empanadas rellenas de carne de jaiba.</p>
+                                    <span class="price"> $7.000</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- tercer productor region pacifica  -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region pacifica sopa de crangejo.webp" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Sopa de cangrejo</h4>
+                                    <p>Sopa de cangrejo con leche de coco, yuca y plátano.</p>
+                                    <span class="price"> $16.500</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- cuarto productor region pacifica  -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/region pacifica arroz atollado.jpg" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Arroz atollado</h4>
+                                    <p>Arroz con calamares, camarones, mariscos y verduras, con una consistencia cremosa.</p>
+                                    <span class="price"> $16.500</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <!-- seccionde informacion -->
+    <section class="info container" id="servicio" >
+        <div class="info-img">
+            <img src="imagenes/comida tipica colombiana.png" alt="">
+
+        </div>
+
+        <div class="info-txt">
+            <h2>Sobre nosotros</h2>
+            <p>
+
+            Bienvenidos a "Sabor de Mi Tierra", un auténtico paraíso gastronómico que te transportará a las vibrantes calles de Colombia a través de sus deliciosos sabores y aromas. Situado en el corazón de la ciudad, nuestro restaurante es un oasis culinario donde celebramos la rica diversidad y tradiciones de la cocina colombiana.
+            
+
+            <br><br>En "Sabor de Mi Tierra", cada plato es una obra maestra elaborada con pasión y dedicación, utilizando ingredientes frescos y auténticos, directamente inspirados en las recetas tradicionales que han pasado de generación en generación, explorando lo que las diferencetes regiones del pais nos ofrecen
+
+            <br><br>Nuestro compromiso con la excelencia se refleja no solo en la calidad de nuestros platos, sino también en el cálido ambiente que ofrecemos a nuestros comensales. Ya sea que vengas en busca de un almuerzo rápido entre semana o de una cena especial para celebrar una ocasión especial, nuestro equipo te recibirá con una sonrisa y te brindará un servicio excepcional para que tu visita sea inolvidable.
+
+            <br><br>¡Ven y descubre el verdadero sabor de Colombia en "Sabor de Mi Tierra"! ¡Te esperamos con los brazos abiertos para vivir una experiencia gastronómica que nunca olvidarás!
+            </p>
+            <a href="#" class="btn-2"> Mas informacion</a>
+        </div>
+
+        </section>
+
+    <!-- Seccion de informacion masespecifica -->
+    <section class="horario"  id="horario">
+        <div class="horario-info container">
+
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Direccion</h4>
+                    <p>
+                        manz 24 barrio santa monica, Medelllin
+                    </p> 
+
+                </div>
+
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes a Viernes: 8 am - 10 pm              
+                    </p>
+                    <p>
+                        Sabado y Domingo: 12pm - 9 pm
+                    </p>
+
+                </div>
+
+                <div class="txt">
+                    <h4>Telefono</h4>
+                    <p>
+                        3215847966        
+                    </p>
+                    
+                    
+                </div>
+
+                <!-- Informacion redes sociales  -->
+                <div class="txt">
+                    <h4>Redes sociales</h4>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/">
+                            <div class="social">
+                                <img src="s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/">
+                            <div class="social">
+                                <img src="s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <div class="social">
+                                <img src="s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa de google maps -->
+    <section>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.74116930673!2d-75.6636143454708!3d6.2441970431890415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1701131892579!5m2!1ses!2sco" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer class="footer container">
+        <img class="logo-2" src="imagenes/logo-restaurante.jpeg" alt="">
+        <div class="links">
+
+            <h4><a href="#inicio">Inicio</a></h4>
+            
+
+        </div>
+
+        <div class="links">
+            <h4><a href="#servicio">Sobre  nosotros</a></h4>
+            
+
+        </div>
+
+        <div class="links">
+            <h4><a href="#producto">Productos</a></h4>
+            
+        </div>
+
+        <div class="links">
+            <h4><a href="registro.html">Registro</a></h4>
+
+        </div>
+        
+        
+        <div class="links">
+            <h4>Redes sociales</h4>
+            <div class="socials">
+                <a href="https://www.facebook.com/">
+                    <div class="social">
+                        <img src="s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://twitter.com/">
+                    <div class="social">
+                        <img src="s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/E">
+                    <div class="social">
+                        <img src="s3.svg" alt="">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <!-- libreria java script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> 
+
+    <!-- Vinculacion Java script-->
+    <script src="script.js"></script>  
+</body>
+
+</html>
